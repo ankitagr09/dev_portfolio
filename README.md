@@ -2,7 +2,7 @@
 ```markdown
 # Developer Portfolio Template
 
-![Portfolio Preview](path/to/your/portfolio/screenshot.png)
+![Portfolio Preview](https://raw.githubusercontent.com/ankitagr09/dev_portfolio/main/Screenshot%20(46).png)
 
 This is a simple and customizable developer portfolio template designed by Ankit Agrawal. You can use this template to create your own portfolio and showcase your skills, projects, and experience.
 
