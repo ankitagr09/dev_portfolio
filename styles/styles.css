@@ -1,0 +1,189 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+        body {
+            background: linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%);
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        
+        .navbar {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand img {
+            max-height: 40px;
+        }
+
+        .navbar-toggler-icon {
+            background-color: white;
+        }
+
+        .fixed-top {
+            background: linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%);
+
+        }
+
+        .menubar li a {
+            color: white;
+            font-size: 1.02rem;
+            font-family: 'Space Grotesk', sans-serif;
+            margin: 2%;
+            width: max-content;
+        }
+
+        .menubar li a:hover {
+
+            border: 2px solid white;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            color: white;
+            transition: all 0.8s ease-in-out;
+        }
+
+        .gets {
+            border-radius: 24px;
+            margin-left: 3%;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .gets:hover {
+            background-color: transparent;
+            border: 1px white solid;
+        }
+
+
+        .sidemenu {
+            background: linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidemenu .gets {
+            width: 40%;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+        .name {
+            background: #063560;
+            color: white;
+            width: max-content;
+            padding: 2%;
+            text-transform: uppercase;
+            border-radius: 4px;
+            padding: 5px 12px;
+            display: inline-block;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 4px;
+        }
+
+        .heading {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 400%;
+            color: white;
+        }
+
+        .changingText {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 300%;
+            color: #0788FF;
+            margin: 0 0 30px;
+
+        }
+
+        @keyframes cursorBlink {
+
+            0%,
+            100% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        #changingText {
+            display: inline-block;
+            border-right: 2px solid white;
+            /* Simulate a cursor */
+            padding-right: 4px;
+            /* Adjust the cursor spacing */
+            white-space: nowrap;
+            /* Prevent line breaks */
+            overflow: hidden;
+            /* Hide overflowed characters */
+            animation: cursorBlink 1s infinite;
+            /* Blinking cursor animation */
+        }
+
+        .getintouch {
+            padding: 13px 30px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 40px;
+            border: 0.5px solid white;
+            background-color: #0d6efd;
+            color: white;
+            text-decoration: none;
+            transition: ease all .35s;
+            font-weight: 500;
+            outline: none;
+            box-shadow: none;
+            text-transform: uppercase;
+            width: fit-content;
+            margin-left: 5%;
+        }
+
+        .getintouch:hover {
+            background-color: transparent;
+            border: 1px solid white;
+        }
+
+        .social span {
+            width: 46px;
+            height: 46px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            color: var(--px-white);
+            border: 2px solid white;
+            margin-right: 8px;
+            position: relative;
+            transition: ease top .35s;
+            top: 0;
+        }
+
+        /*  .companies h3 {
+            font-weight: 500;
+            font-size: 1.04rem;
+            color: white;
+        }
+
+        .companies {
+            background-color: #042b4b;
+        }  **/
+
+
+        .absec {
+            background: rgba(255, 255, 255, .05);
+            border: 1px solid rgba(255, 255, 255, .15);
+            display: flex;
+            flex-direction: column;
+            color: white;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .work {
+            background-color: #04294a;
+        }
